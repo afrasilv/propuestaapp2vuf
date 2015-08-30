@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">propuesta2vuf</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+  <string name="content">Aplicación desarrollada por Alejandro Franco Silva como segunda propuesta del TFG sobre Realidad Aumentada</string>
+  <string name="deleteAccount">¿Está seguro que desea borrar la cuenta? Esto borrará todas las tarjetas e información que tenga asociada.</string>
+  <string name="deleteCard">¿Está seguro que desea borrar la tarjeta? Esto borrará todas las animaciones e información que tenga de ella... </string>
+  <string-array name="live_time_array">
+    <item>1 hora</item>
+    <item>2 horas</item>
+    <item>1 día</item>
+    <item>1 semana</item>
+    <item>Siempre</item>
+  </string-array>
+</resources>

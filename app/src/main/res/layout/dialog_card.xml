@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/dialog_subject_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/nameCard"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center" />
+
+        <Button
+            style="@style/BackButton"
+            android:id="@+id/backToCards"
+            android:text="Tarjetas"
+            android:layout_below="@id/nameCard"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editImage"
+            android:text="Modificar Imagen"
+            android:layout_below="@+id/backToCards"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editARResources"
+            android:text="Modificar Objetos AR"
+            android:layout_below="@+id/editImage"></Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/settingsCard"
+            android:text="Configuración"
+            android:layout_alignParentBottom="true"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>
